@@ -11,7 +11,7 @@
       "category": "Build",
       "purpose": "Deprecated alias for an ordinary new-work request",
       "references": [
-        "references/upstream/reference/craft.md"
+        "019.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -21,7 +21,7 @@
       "category": "Build",
       "purpose": "Plan UX/UI before writing code",
       "references": [
-        "references/upstream/reference/shape.md"
+        "044.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -31,7 +31,7 @@
       "category": "Build",
       "purpose": "Capture durable product context in PRODUCT.md",
       "references": [
-        "references/upstream/reference/init.md"
+        "032.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -41,7 +41,7 @@
       "category": "Build",
       "purpose": "Generate DESIGN.md from existing project code",
       "references": [
-        "references/upstream/reference/document.md"
+        "028.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -51,7 +51,7 @@
       "category": "Build",
       "purpose": "Pull reusable tokens and components into design system",
       "references": [
-        "references/upstream/reference/extract.md"
+        "029.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -61,7 +61,7 @@
       "category": "Evaluate",
       "purpose": "UX design review with heuristic scoring",
       "references": [
-        "references/upstream/reference/critique.md"
+        "020.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -71,8 +71,8 @@
       "category": "Evaluate",
       "purpose": "Technical quality checks (a11y, perf, responsive)",
       "references": [
-        "references/upstream/reference/audit.md",
-        "references/upstream/reference/audit.native.md"
+        "013.md",
+        "014.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -82,7 +82,7 @@
       "category": "Refine",
       "purpose": "Final quality pass before shipping",
       "references": [
-        "references/upstream/reference/polish.md"
+        "041.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -92,7 +92,7 @@
       "category": "Refine",
       "purpose": "Amplify safe or bland designs",
       "references": [
-        "references/upstream/reference/bolder.md"
+        "015.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -102,7 +102,7 @@
       "category": "Refine",
       "purpose": "Tone down aggressive or overstimulating designs",
       "references": [
-        "references/upstream/reference/quieter.md"
+        "042.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -112,7 +112,7 @@
       "category": "Refine",
       "purpose": "Strip to essence, remove complexity",
       "references": [
-        "references/upstream/reference/distill.md"
+        "026.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -122,7 +122,7 @@
       "category": "Refine",
       "purpose": "Production-ready: errors, i18n, edge cases",
       "references": [
-        "references/upstream/reference/harden.md"
+        "030.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -132,7 +132,7 @@
       "category": "Refine",
       "purpose": "Design first-run flows, empty states, activation",
       "references": [
-        "references/upstream/reference/onboard.md"
+        "037.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -142,7 +142,7 @@
       "category": "Enhance",
       "purpose": "Add purposeful animations and motion",
       "references": [
-        "references/upstream/reference/animate.md"
+        "012.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -152,7 +152,7 @@
       "category": "Enhance",
       "purpose": "Add strategic color to monochromatic UIs",
       "references": [
-        "references/upstream/reference/colorize.md"
+        "017.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -162,7 +162,7 @@
       "category": "Enhance",
       "purpose": "Improve typography hierarchy and fonts",
       "references": [
-        "references/upstream/reference/typeset.md"
+        "045.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -172,7 +172,7 @@
       "category": "Enhance",
       "purpose": "Fix spacing, rhythm, and visual hierarchy",
       "references": [
-        "references/upstream/reference/layout.md"
+        "034.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -182,7 +182,7 @@
       "category": "Enhance",
       "purpose": "Add personality and memorable touches",
       "references": [
-        "references/upstream/reference/delight.md"
+        "025.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -192,7 +192,7 @@
       "category": "Enhance",
       "purpose": "Push past conventional limits",
       "references": [
-        "references/upstream/reference/overdrive.md"
+        "040.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -202,7 +202,7 @@
       "category": "Fix",
       "purpose": "Improve UX copy, labels, and error messages",
       "references": [
-        "references/upstream/reference/clarify.md"
+        "016.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -212,8 +212,8 @@
       "category": "Fix",
       "purpose": "Adapt for different devices and screen sizes",
       "references": [
-        "references/upstream/reference/adapt.md",
-        "references/upstream/reference/adapt.native.md"
+        "009.md",
+        "010.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -223,7 +223,7 @@
       "category": "Fix",
       "purpose": "Diagnose and fix UI performance",
       "references": [
-        "references/upstream/reference/optimize.md"
+        "039.md"
       ],
       "nativeOnly": false,
       "automaticScriptExecution": false
@@ -233,7 +233,7 @@
       "category": "Iterate",
       "purpose": "Visual variant mode: pick elements in the browser, generate alternatives",
       "references": [
-        "references/upstream/reference/live.md"
+        "035.md"
       ],
       "nativeOnly": true,
       "automaticScriptExecution": false
@@ -242,7 +242,7 @@
       "command": "hooks",
       "category": "Native runtime",
       "references": [
-        "references/upstream/reference/hooks.md"
+        "031.md"
       ],
       "nativeOnly": true,
       "automaticScriptExecution": false
@@ -251,7 +251,7 @@
       "command": "doctor",
       "category": "Native runtime",
       "references": [
-        "references/upstream/reference/doctor.md"
+        "027.md"
       ],
       "nativeOnly": true,
       "automaticScriptExecution": false

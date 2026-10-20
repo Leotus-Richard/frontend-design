@@ -44,3 +44,16 @@ unchanged as source evidence; scripts, hooks, overlays, updates, pin shortcuts,
 and external dependencies are not enabled or claimed working. Do not extract it
 into a host-scanned skill directory. Archived runtime directions are unavailable
 integration examples, not instructions to launch helpers.
+
+## Windows distribution paths
+
+The retained source tree is flattened into short `references/r/NNN` resource IDs
+so host-managed Git staging prefixes do not overflow traditional Windows path
+limits. [resource-paths.json](resource-paths.json) maps every intake resource and
+previous distribution path to its current file; the reference index links them.
+Active hub, reference, command-catalog, and notice links were updated together.
+All modified text is written with LF line endings before distribution hashing.
+Source hashes remain immutable; current distribution hashes describe the new bytes.
+License, NOTICE, and native ZIP bytes are preserved. This is a packaging correction
+before the first 0.1.0 release, not a runtime or feature change. Native installation
+requires re-verification on the new commit.

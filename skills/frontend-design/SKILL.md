@@ -25,11 +25,11 @@ helper commands. Each copied playbook is labeled source-only; no helper is insta
 
 | Task | Optional playbook |
 | --- | --- |
-| Plan a new/replacement surface | [shape](references/source/impeccable/references/upstream/reference/shape.md), [new work](references/source/impeccable/references/upstream/reference/new-work.md) |
-| Evaluate UX or technical quality | [critique](references/source/impeccable/references/upstream/reference/critique.md), [audit](references/source/impeccable/references/upstream/reference/audit.md) |
-| Refine an existing interface | [craft floor](references/source/impeccable/references/upstream/reference/craft-floor.md), [polish](references/source/impeccable/references/upstream/reference/polish.md), [distill](references/source/impeccable/references/upstream/reference/distill.md) |
-| Improve a specific dimension | [type](references/source/impeccable/references/upstream/reference/typeset.md), [layout](references/source/impeccable/references/upstream/reference/layout.md), [copy](references/source/impeccable/references/upstream/reference/clarify.md), [color](references/source/impeccable/references/upstream/reference/colorize.md), [motion](references/source/impeccable/references/upstream/reference/animate.md) |
-| Adapt or harden states | [adapt](references/source/impeccable/references/upstream/reference/adapt.md), [harden](references/source/impeccable/references/upstream/reference/harden.md), [onboard](references/source/impeccable/references/upstream/reference/onboard.md) |
+| Plan a new/replacement surface | [shape](references/r/044.md), [new work](references/r/036.md) |
+| Evaluate UX or technical quality | [critique](references/r/020.md), [audit](references/r/013.md) |
+| Refine an existing interface | [craft floor](references/r/018.md), [polish](references/r/041.md), [distill](references/r/026.md) |
+| Improve a specific dimension | [type](references/r/045.md), [layout](references/r/034.md), [copy](references/r/016.md), [color](references/r/017.md), [motion](references/r/012.md) |
+| Adapt or harden states | [adapt](references/r/009.md), [harden](references/r/030.md), [onboard](references/r/037.md) |
 
 Keep a refinement within the established identity. Replace the visual direction
 only when redesign is requested. For planning, return the brief before code.
@@ -43,8 +43,8 @@ For authorized UI edits, use real content and meaningful interaction states,
 clear hierarchy, responsive layouts, keyboard access, visible focus, adequate
 contrast, reduced-motion support, and useful loading/error/empty states.
 Prioritize the visitor's actual task over decorative novelty. Use platform-specific
-[iOS](references/source/impeccable/references/upstream/reference/ios.md) or
-[Android](references/source/impeccable/references/upstream/reference/android.md)
+[iOS](references/r/033.md) or
+[Android](references/r/011.md)
 references only for the corresponding target; do not claim platform conformance
 from a reference checklist alone.
 

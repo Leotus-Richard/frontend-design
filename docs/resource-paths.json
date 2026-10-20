@@ -1,0 +1,255 @@
+{
+  "formatVersion": 1,
+  "resources": [
+    {
+      "sourcePath": "skills/impeccable/LICENSE",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/LICENSE",
+      "packagePath": "skills/frontend-design/references/r/001.license"
+    },
+    {
+      "sourcePath": "skills/impeccable/NOTICE.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/NOTICE.md",
+      "packagePath": "skills/frontend-design/references/r/002.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/SKILL.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/ORIGINAL-SKILL.md",
+      "packagePath": "skills/frontend-design/references/r/003.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/commands.json",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/commands.json",
+      "packagePath": "skills/frontend-design/references/r/004.json"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/local-execution-contract.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/local-execution-contract.md",
+      "packagePath": "skills/frontend-design/references/r/005.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/portability.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/portability.md",
+      "packagePath": "skills/frontend-design/references/r/006.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/native-resources.zip",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/native-resources.zip",
+      "packagePath": "skills/frontend-design/references/r/008.zip"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/frontend-design/references/r/007.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/adapt.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/adapt.md",
+      "packagePath": "skills/frontend-design/references/r/009.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/adapt.native.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/adapt.native.md",
+      "packagePath": "skills/frontend-design/references/r/010.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/android.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/android.md",
+      "packagePath": "skills/frontend-design/references/r/011.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/animate.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/animate.md",
+      "packagePath": "skills/frontend-design/references/r/012.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/audit.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/audit.md",
+      "packagePath": "skills/frontend-design/references/r/013.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/audit.native.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/audit.native.md",
+      "packagePath": "skills/frontend-design/references/r/014.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/bolder.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/bolder.md",
+      "packagePath": "skills/frontend-design/references/r/015.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/clarify.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/clarify.md",
+      "packagePath": "skills/frontend-design/references/r/016.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/colorize.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/colorize.md",
+      "packagePath": "skills/frontend-design/references/r/017.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/craft-floor.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/craft-floor.md",
+      "packagePath": "skills/frontend-design/references/r/018.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/craft.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/craft.md",
+      "packagePath": "skills/frontend-design/references/r/019.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/critique.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/critique.md",
+      "packagePath": "skills/frontend-design/references/r/020.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/delight.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/delight.md",
+      "packagePath": "skills/frontend-design/references/r/025.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/distill.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/distill.md",
+      "packagePath": "skills/frontend-design/references/r/026.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/doctor.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/doctor.md",
+      "packagePath": "skills/frontend-design/references/r/027.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/document.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/document.md",
+      "packagePath": "skills/frontend-design/references/r/028.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/extract.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/extract.md",
+      "packagePath": "skills/frontend-design/references/r/029.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/harden.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/harden.md",
+      "packagePath": "skills/frontend-design/references/r/030.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/hooks.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/hooks.md",
+      "packagePath": "skills/frontend-design/references/r/031.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/init.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/init.md",
+      "packagePath": "skills/frontend-design/references/r/032.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/ios.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/ios.md",
+      "packagePath": "skills/frontend-design/references/r/033.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/layout.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/layout.md",
+      "packagePath": "skills/frontend-design/references/r/034.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/live.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/live.md",
+      "packagePath": "skills/frontend-design/references/r/035.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/new-work.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/new-work.md",
+      "packagePath": "skills/frontend-design/references/r/036.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/onboard.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/onboard.md",
+      "packagePath": "skills/frontend-design/references/r/037.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/operate.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/operate.md",
+      "packagePath": "skills/frontend-design/references/r/038.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/optimize.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/optimize.md",
+      "packagePath": "skills/frontend-design/references/r/039.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/overdrive.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/overdrive.md",
+      "packagePath": "skills/frontend-design/references/r/040.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/polish.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/polish.md",
+      "packagePath": "skills/frontend-design/references/r/041.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/quieter.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/quieter.md",
+      "packagePath": "skills/frontend-design/references/r/042.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/routing.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/routing.md",
+      "packagePath": "skills/frontend-design/references/r/043.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/shape.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/shape.md",
+      "packagePath": "skills/frontend-design/references/r/044.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/typeset.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/typeset.md",
+      "packagePath": "skills/frontend-design/references/r/045.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/visualize.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/visualize.md",
+      "packagePath": "skills/frontend-design/references/r/046.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/degraded/asset-producer.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/degraded/asset-producer.md",
+      "packagePath": "skills/frontend-design/references/r/021.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/degraded/documenter.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/degraded/documenter.md",
+      "packagePath": "skills/frontend-design/references/r/022.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/degraded/finish-reviewer.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/degraded/finish-reviewer.md",
+      "packagePath": "skills/frontend-design/references/r/023.md"
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/degraded/manual-edit-applier.md",
+      "previousPackagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/degraded/manual-edit-applier.md",
+      "packagePath": "skills/frontend-design/references/r/024.md"
+    },
+    {
+      "sourcePath": "skills/principle-experience-first/LICENSE",
+      "previousPackagePath": "skills/frontend-design/references/source/principle-experience-first/LICENSE",
+      "packagePath": "skills/frontend-design/references/r/047.license"
+    },
+    {
+      "sourcePath": "skills/principle-experience-first/SKILL.md",
+      "previousPackagePath": "skills/frontend-design/references/source/principle-experience-first/ORIGINAL-SKILL.md",
+      "packagePath": "skills/frontend-design/references/r/048.md"
+    },
+    {
+      "sourcePath": "skills/principle-experience-first/references/local-execution-contract.md",
+      "previousPackagePath": "skills/frontend-design/references/source/principle-experience-first/references/local-execution-contract.md",
+      "packagePath": "skills/frontend-design/references/r/049.md"
+    },
+    {
+      "sourcePath": "skills/principle-experience-first/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/frontend-design/references/source/principle-experience-first/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/frontend-design/references/r/050.md"
+    }
+  ]
+}
