@@ -1,0 +1,10 @@
+{
+  "name": "frontend-design",
+  "version": "0.1.0",
+  "description": "Design, review, and refine frontend interfaces using portable Impeccable craft and platform references.",
+  "author": {
+    "name": "Leotus-Richard"
+  },
+  "repository": "https://github.com/Leotus-Richard/frontend-design",
+  "license": "MIT AND Apache-2.0"
+}

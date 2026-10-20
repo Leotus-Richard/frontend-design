@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "frontend-design",
+  "version": "0.1.0",
+  "description": "Design, review, and refine frontend interfaces using portable Impeccable craft and platform references.",
+  "author": {
+    "name": "Leotus-Richard"
+  },
+  "repository": "https://github.com/Leotus-Richard/frontend-design",
+  "license": "MIT AND Apache-2.0",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Frontend Design",
+        "shortDescription": "Design, review, and refine frontend interfaces using portable I",
+        "developerName": "Leotus-Richard",
+        "category": "Development"
+      }
+    }
+  }
+}

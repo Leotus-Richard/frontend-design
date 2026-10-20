@@ -1,0 +1,505 @@
+{
+  "intakeVersion": "1.3.0",
+  "intakeArchiveSha256": "03bfd3c788e224247fa1fd14f5d614961499e0ccf740df2d4f3ec2cfa75bd6ad",
+  "prepared": "2026-10-20",
+  "activeSkillCount": 1,
+  "sourceBundleCount": 2,
+  "sources": [
+    {
+      "id": "impeccable",
+      "source": "user-provided-local:impeccable",
+      "sourceSha256": "5e05cc7d95c27e4e8e1ab3e7789a78bd2496acd7f5d9acaadd2d1feb54dd3ab5",
+      "dependencies": [
+        "work-tracking",
+        "commit-workflow",
+        "create-verification-skill"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/impeccable",
+      "runtime": "portable-instructions-native-source-preserved",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false,
+      "licenseStatus": "Apache-2.0",
+      "sourceVersion": "4.0.3",
+      "nativeSourceArchive": "references/upstream/native-resources.zip",
+      "nativeRuntimeEnabled": false,
+      "externalPrerequisites": [
+        "htmlparser2",
+        "css-select",
+        "css-tree",
+        "domutils",
+        "puppeteer"
+      ],
+      "dependencyVersions": "not supplied; native dependencies not installed or vendored"
+    },
+    {
+      "id": "principle-experience-first",
+      "source": "pstack:principle-experience-first",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/principle-experience-first/SKILL.md",
+      "sourceSha256": "58903529d733b1c1a7c9ccf127d45ef3c7d0d9f0b81164a4dc6b80efe6f2912b",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/principle-experience-first",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    }
+  ],
+  "files": [
+    {
+      "sourcePath": "skills/impeccable/LICENSE",
+      "sourceSha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812",
+      "packagePath": "skills/frontend-design/references/source/impeccable/LICENSE",
+      "packageSha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/impeccable/NOTICE.md",
+      "sourceSha256": "c60a093c2845fd9fb82f9c6f742ece31f379f8190b535309d32d66c45ccffdcb",
+      "packagePath": "skills/frontend-design/references/source/impeccable/NOTICE.md",
+      "packageSha256": "c60a093c2845fd9fb82f9c6f742ece31f379f8190b535309d32d66c45ccffdcb",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/impeccable/SKILL.md",
+      "sourceSha256": "7effb14e6808538ca309c9ef1cac6ed29be433f16215a0b56edefb7c20e4fd61",
+      "packagePath": "skills/frontend-design/references/source/impeccable/ORIGINAL-SKILL.md",
+      "packageSha256": "58fefc138f9c88ae08f3e9efd89348afdb6e0a4e68f82f0b6bb2e9a14ca76c37",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/commands.json",
+      "sourceSha256": "7de5351c6c4f0dcfca0adf7fc53ea9eb61672e155f0f3bd3584a8f624ce089ea",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/commands.json",
+      "packageSha256": "7de5351c6c4f0dcfca0adf7fc53ea9eb61672e155f0f3bd3584a8f624ce089ea",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/impeccable/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/portability.md",
+      "sourceSha256": "7840d4272980ddf18518071181238768224534c96e62d341ef3214e00ab5b31a",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/portability.md",
+      "packageSha256": "774e44810774f39d32e28aa11ac62db664e8e01893015fd74e48cf6c039314a6",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/native-resources.zip",
+      "sourceSha256": "a71fbeda69df16eacffd3612e2148aa6947c13ad6dc8044aea226bf3a7c89dac",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/native-resources.zip",
+      "packageSha256": "a71fbeda69df16eacffd3612e2148aa6947c13ad6dc8044aea226bf3a7c89dac",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "5e05cc7d95c27e4e8e1ab3e7789a78bd2496acd7f5d9acaadd2d1feb54dd3ab5",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "68e72ac5be68475c2b7b42f952dad8899a7dc149f226077a8f3da48f10899aff",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/adapt.md",
+      "sourceSha256": "ec58806f16fc7ba29bccef08f2e158cd00be077ce05d45e943a59bd26dc6dc55",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/adapt.md",
+      "packageSha256": "b2fba98da5daf233887c7bf0c060652f6002c6026832eefdae6a101e6de0b85b",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/adapt.native.md",
+      "sourceSha256": "17c583cf8ad41266ea1e787b666b9d91fe13469d3d0f6af57c08e0146f9b17ac",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/adapt.native.md",
+      "packageSha256": "13ba00cee21971df1c05bf88540bdd258f8fe99929bc0bf8256581f4043d3c69",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/android.md",
+      "sourceSha256": "dacaaf57fe334fb1a02ddb4da5217c78f4e154ac9e6b760d2cc69cceaed0eac4",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/android.md",
+      "packageSha256": "249b0c4e9e2a2bbb3ff4889f8159e3dab042fe90dc3272544932c4ca391e7682",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/animate.md",
+      "sourceSha256": "e86a01920e31b1f7d3d2d1961c2470bbe8db9f3ebfe5f0985fe004ca64f3a3cc",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/animate.md",
+      "packageSha256": "249a0f8dbc05c052b73cd855578d194d03de375a937a1663b81831bab6c04534",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/audit.md",
+      "sourceSha256": "57402ef6fd9d0745f8c60d778f77da83a8b16edf751fa1013598a0f6e5f0f541",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/audit.md",
+      "packageSha256": "4c3834658930dce20e4043e93c7a65a002e701bd15573de35c1896e411facf29",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/audit.native.md",
+      "sourceSha256": "010ecb4ef79d6e063280791cd2d5e6a689f4f7a3d66c60d7d43f04e7b2067966",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/audit.native.md",
+      "packageSha256": "7f8948d04234f93accdbcb319d533dacff8f5db4fff58e7760ffabcefbbb9fff",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/bolder.md",
+      "sourceSha256": "ee21db98b69ccc6b071ff5f5736310df54cfac975d950f5749cf00d7200fe96c",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/bolder.md",
+      "packageSha256": "b8106053e00a17bd7d144e5339f2a8e5bac427ad0fb2981a5c6bcc0b7c0aaa73",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/clarify.md",
+      "sourceSha256": "6c382f8283756e8a693d832b750f7e4cbff1ca5bdcc3825b2b4ef4da9f21876a",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/clarify.md",
+      "packageSha256": "5da9a7e4ff55c6caa0c2f0542ec493fcaa51d826892ea3d8a2e37721ecd77f54",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/colorize.md",
+      "sourceSha256": "d1fbd55074abb2251bdaa03749d34acc42c38e46e47549f18f5848df57d43c42",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/colorize.md",
+      "packageSha256": "032cd3ad20ce1409eec307c8e849168c16c8241bee6ed28591c9166d41522f0c",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/craft-floor.md",
+      "sourceSha256": "7f1a2f1cfc6c8052426b9a85cb4df8841710a98e739b5f3757e91bf45eef5792",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/craft-floor.md",
+      "packageSha256": "b4dde6203e0b2c02b7b89d1b545d74d608cd6cc6a329117670c1e0dc615c4231",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/craft.md",
+      "sourceSha256": "9205e222bc6565b37fb504ceec93233c2d2a456802b69d16e6b1c44723907c4c",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/craft.md",
+      "packageSha256": "fbf645cdebe2043725447d2e5a3aea475827bf7ce919afe473094933ca2bccc6",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/critique.md",
+      "sourceSha256": "98afd62347954b8d7daad5a976ab984ae44bc93441d7bce1dccee70ea651c3b1",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/critique.md",
+      "packageSha256": "259b4b5db3165f86105f754fd28d54ce59a396982ac19bec1ae6000c432738ff",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/delight.md",
+      "sourceSha256": "56500b1f9d2fcec8324d7f448d813048b5831a46d3feeb1055bd3eb17ec3660f",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/delight.md",
+      "packageSha256": "ccdef13b906bd7c8b2214ad142b2884fc2ae913c3a72e669f906a0b6a6250fe6",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/distill.md",
+      "sourceSha256": "0ff7dfd49b96802801fce06c024e8b0d1535a90d23f6889f1c3ec148fdf6365c",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/distill.md",
+      "packageSha256": "bf562917499b88f71f27e994d845fdf8a00c5edaab9d96dc13a040aba279cb67",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/doctor.md",
+      "sourceSha256": "35d4738b477b6cee6d7753cb9c05a0fd799b98e88a45c99bd18ece288176ee28",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/doctor.md",
+      "packageSha256": "3b6e77f80841488ad4e716b8feb3906dc2aeedb2e5a83b2eee575fa6bc7513c5",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/document.md",
+      "sourceSha256": "2744b2e859865e143770a94b6a584129fdc708d0c54ea78c6d93ef670f77c137",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/document.md",
+      "packageSha256": "c256fbac30f7a3445f1ab1e7d423155828f93cf87d27e7ad08c21e12d1ef4dc5",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/extract.md",
+      "sourceSha256": "346a3ed037de1d6d9194fcf079b94d4f5508f1cff12a9b2a29fdf2c2995610a2",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/extract.md",
+      "packageSha256": "f4aa8827db1d3c6966c87d0a8c3b55b0a1347e768dcd84ca3932ca5af4e58714",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/harden.md",
+      "sourceSha256": "8a1c872773996dfa1c1eb765ac7ed8e8d41f99d4f12f090b4725b694e85eaa62",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/harden.md",
+      "packageSha256": "88d6956e7fba8b5c5d279fbab6d8cdb6aea1f3152c4edc3969e27204e0970e5f",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/hooks.md",
+      "sourceSha256": "17a5ca85d7489c93ea36b4e986e2da35c108e4384203840631a38f5a172f1456",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/hooks.md",
+      "packageSha256": "f0d52a854e2b2749630d5ae2a3ac1bbd0245b4f142089aacf676a97b2bc69359",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/init.md",
+      "sourceSha256": "84ccf9f19f1c89c371e32f59ff549c3f1d6c04c763c1f73bfef65b12786426ff",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/init.md",
+      "packageSha256": "ded46240f66977822596e34befc0eec442f870fd7f58e4d8e5c07bf0986cd830",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/ios.md",
+      "sourceSha256": "07131918b18ce50dbd62fa20bb519d7a0b4a36c798f0e5332522b75cbc7d0574",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/ios.md",
+      "packageSha256": "6ad009d7f6af2db253a7431d57ce7cca8510600109ffb3fa4ff4de788bcb7b9a",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/layout.md",
+      "sourceSha256": "4d8806f973d285e4f9d9c8fb8010d5ae0c08b1caddf23b40cab90bc9260ebf8b",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/layout.md",
+      "packageSha256": "29e502c5a40589bbf05d6c0cdcccebd64791d736b1c5bf62ef0dfe49bb90fcdb",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/live.md",
+      "sourceSha256": "7fec165b428bd9e7789edfdfbb4a29fe82d047993239fbded821a1b1645a5244",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/live.md",
+      "packageSha256": "5aaf9d8fda19a0bf53a980d4cbafa9d8a6f9e89bf426e01bd23c319a5abb1625",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/new-work.md",
+      "sourceSha256": "675e5c0d0dbcf2510948d0ef651cbea77c7cb2c5f4db468df82dbb11b0abf3ec",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/new-work.md",
+      "packageSha256": "14a49c3715cf4c609c62bf8c94fbfabe8e93d7871ac0a801cfbc729010f79db5",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/onboard.md",
+      "sourceSha256": "9a2c08ee2516d2ee87129e7ebe6a0895f9990c9852d1f6fa7e70be9a6a88a659",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/onboard.md",
+      "packageSha256": "fcef796c59fe585c6ba3dfd5105de6c3f05aefaad7b83a199bb7540049b97ddf",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/operate.md",
+      "sourceSha256": "a9d2203acd45ca33a13d5c68b02b23ed512425ac15f0e8438318ed124b43729d",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/operate.md",
+      "packageSha256": "a5d36b36dda30e2f6de2adaf66b138883138edf8c9268b96cfb45657e3d58f15",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/optimize.md",
+      "sourceSha256": "6d368b679a0ed1815812815de65863b5840d419589dfbda06224c01149240287",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/optimize.md",
+      "packageSha256": "90e53c07e39e0ae30a19122750a3060b952fd8a4c3fd435ba4bddadbc6e58f04",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/overdrive.md",
+      "sourceSha256": "b933a5a955c6c6f8662f1e0d10efd5fa68ef0a0e6b9b9c6911635d5c4aa101ad",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/overdrive.md",
+      "packageSha256": "89a5b7de9e7da1b57b4a7984d136d6559b6a7295f11c4b479e77d819911ca64b",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/polish.md",
+      "sourceSha256": "f90d95c70b93ad8dafce9f63dae50812166f76c0a9caef1f397a81fc40c9fddc",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/polish.md",
+      "packageSha256": "9c98a323fcb6700874f698d98cc0296c8aa07f335614a5018fb84c9488b2f30e",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/quieter.md",
+      "sourceSha256": "9ed70ee30cf4c8667e9cb51db531dc3f78afde0c5b718af5c00de861d3201538",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/quieter.md",
+      "packageSha256": "098287a8143076fbdf3fbe3530806919aecbb38cfce970c3d76b8dd38fec3e03",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/routing.md",
+      "sourceSha256": "ec3cb6f439bc6d6980803b6b037fa62cee0254c7c1d8aea439f0f70e2747cda8",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/routing.md",
+      "packageSha256": "29c6aa93adcb7c25312e1d88c938e759388cbe4c7e7880289f38097868627889",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/shape.md",
+      "sourceSha256": "a55f016c046cb6a27c55bd7f346375aeb506a755c4fbca19a5f92dbd42309c23",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/shape.md",
+      "packageSha256": "8cefa08a79e61b1fe749d541a3c095b1b71f1232e43078297c2adaee46acae63",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/typeset.md",
+      "sourceSha256": "dc28aaf9b87fa459fbab76c3e05def8537f175b09b3a44927125c0bb508ef630",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/typeset.md",
+      "packageSha256": "383310d813f9eea310060508165bfa5afc74cecf0f47d4080f308f1f7d92c39d",
+      "modifications": [
+        "archive-modification-notice",
+        "machine-path-replaced"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/visualize.md",
+      "sourceSha256": "30e2cf78755b1eff86fbdcce580813fe03ec2133ee84c27ba17fc072c11d3c32",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/visualize.md",
+      "packageSha256": "3440cdd04262350377d8b3a7f9edc394db13e513997e9ea0ec8f247987352828",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/degraded/asset-producer.md",
+      "sourceSha256": "c090e0a68b5e0f078e8058b34b4eb067e6d0ad8680cd7c771932ebe16bf44bc7",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/degraded/asset-producer.md",
+      "packageSha256": "b49c7a56e9fc0e61034ddab71562dc6f10e9518dc16fa04260bd49874d82dec4",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/degraded/documenter.md",
+      "sourceSha256": "eab9d3cde872468262e159202966c880eb264c57701a82be54c518ba65b2c265",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/degraded/documenter.md",
+      "packageSha256": "c316e67e62e738030ed544b07d7a8cf295da7eaa0e75e294adee2e00f44839c7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/degraded/finish-reviewer.md",
+      "sourceSha256": "f1bc153b6645e2e086a0a3bf10c976b83c782b76bba1f264cabe237ccc807d87",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/degraded/finish-reviewer.md",
+      "packageSha256": "170c7e588b4630c490a78d9cfb741844722afc424f2799dd107392d1c897043f",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/impeccable/references/upstream/reference/degraded/manual-edit-applier.md",
+      "sourceSha256": "49d9d5751f9f93820f8c761b16db47c6328cc58001e463e5b647af5b4e20e55f",
+      "packagePath": "skills/frontend-design/references/source/impeccable/references/upstream/reference/degraded/manual-edit-applier.md",
+      "packageSha256": "b0878a141deb9882b88b4f2b54881eff60fc626e887d1bcebece2b528e75f64f",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-experience-first/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/frontend-design/references/source/principle-experience-first/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/principle-experience-first/SKILL.md",
+      "sourceSha256": "303e166a0d60232e1e5d73ccda1e7adb71584bd12d74e5dd9d7fd31154a88a12",
+      "packagePath": "skills/frontend-design/references/source/principle-experience-first/ORIGINAL-SKILL.md",
+      "packageSha256": "3c87d206e7e9bf0cde62179d60c545b7ad80c2720ec9e2390dca40fe67f0a50c",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-experience-first/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/frontend-design/references/source/principle-experience-first/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-experience-first/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "58903529d733b1c1a7c9ccf127d45ef3c7d0d9f0b81164a4dc6b80efe6f2912b",
+      "packagePath": "skills/frontend-design/references/source/principle-experience-first/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "3964fa68766bb6cf587c199b80de8f9fee86c41aa917f8395a2e98bce7f08a8f",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    }
+  ],
+  "referenceRepairs": [],
+  "nativeHostBehavior": "unverified",
+  "nativeHelpers": "archived source only; not enabled"
+}
